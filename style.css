@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+#header {
+    width: 100%;
+    height: 90vh;
+    background-color: #000;
+    background-image: url(image/background.png);
+    background-position: right;
+    background-size: cover;
+}
+
+#textarea {
+    float: left;
+    flex-wrap: nowrap;
+    margin-top: 15%;
+}
+
+.container {
+    padding: 0 3% 0 3%;
+    background-color: #000000;
+}
+
+nav {
+    /* background-color: #000; */
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 10%;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+}
+
+#logo {
+    font-size: 60px;
+}
+
+nav h1 span {
+    color: #ff004f;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li a {
+    color: #fff;
+    margin: 10px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    color: #ff004f;
+    text-decoration: underline #ff004f 3px;
+}
+
+.header-text {
+    margin-left: 8%;
+    margin-top: 10vh;
+}
+
+.header-text h1 {
+    font-size: 40px;
+}
+
+#about {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 8.1%;
+}
+
+#user {
+    border-radius: 30px;
+    float: left;
+}
+
+#about-content {
+    margin-left: 20px;
+    padding: 5px;
+}
+
+#edu {
+    display: flex;
+    flex-wrap: nowrap;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#higher_secondary,
+#secondary {
+    margin-left: 13rem;
+}
+
+#edu p {
+    transition: 0.35s;
+    cursor: pointer;
+    padding: 5px;
+}
+
+#edu_details {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 17px;
+    box-sizing: content-box;
+}
+
+#div2 {
+    margin-left: 12rem;
+}
+
+#div3 {
+    margin-left: 17rem;
+}
+
+#graduation_details p {
+    padding: 4.5px 0;
+}
+
+#higher_secondary_details p {
+    padding: 4.5px 0;
+}
+
+#secondary_details p {
+    padding: 4.5px 0;
+}
+
+#skill {
+    padding-left: 8.1%;
+    font-weight: 500;
+}
+
+#skill_details {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#skill ul li {
+    padding: 12px 0;
+}
+
+#skill ul {
+    margin-left: 8%;
+    font-size: 17px;
+}
+
+#Projects {
+    margin-top: 20px;
+    padding-left: 8.1%;
+}
+
+#Projects div {
+    padding: 2% 2% 1% 6%;
+}
+
+#Projects div h3 span {
+    color: #ff004f;
+}
+
+#Projects div ul {
+    padding-left: 4%;
+}
+
+#Projects div ul li {
+    padding: 4px;
+    font-size: 16px;
+}
+
+#Projects div ul li a {
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#contact {
+    margin: 20px 0 0 8.1%;
+}
+
+#contact div {
+    padding: 2% 2% 1% 6%;
+}
+#contact th{
+padding: 25px;
+font-size: 17px;
+font-weight: 700;
+text-align: left;
+}
+#contact tr{
+margin-top: 10px;
+}
+#contact a{
+color:white;
+}
